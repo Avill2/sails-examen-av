@@ -9,19 +9,20 @@ module.exports = {
 
   attributes: {
     nombre:{
-      type:"String"
+      type:"string"
     },
     apellido:{
-      type:"String"
+      type:"string"
     },
     fechaNacimiento:{
-      type:"Date"
+      type:"string"
+
     },
     numeroAutos:{
       type: "number"
     },
     licenciaValida:{
-      type:"Boolean"
+      type:"boolean"
     },
     autos:{
       collection:"Auto",
